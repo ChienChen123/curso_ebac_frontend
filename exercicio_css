@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>Meu portal de notícias</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                </li>
+                <li>
+                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                </li>
+                <li>
+                    <a href="#tecnology" title="Ir para a seção de tecnologia">Tecnologia</a>
+                </li>
+                <li>
+                    <a href="#entertainment" title="Ir para a seção de entrenimento">Entretenimento</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+        <div class="articles">
+            <article>
+                <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Grande clássico na noite de hoje</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Noite do Superbowl</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Notícia sobre a NBA</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Notícia sobre a NBA</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+        <div class="articles">
+            <article>
+                <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Dólar em alta de 0.50%</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Euro em queda de 0.40%</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Alta no preço do barril do petróleo</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+        </div>
+    </section>
+    <section id="tecnology">
+        <div class="container">
+            <h2>Tecnologia</h2>
+        <div class="articles">
+            <article>
+                <img src="./imagens/Tecnologia1.jpg" alt="Futuro da Tecnologia" />
+                <header>
+                    <time>31/01/2023 às 20:46</time>
+                </header>
+                <h3>Futuro da Tecnologia</h3>
+                <p>
+                    A Tecnologia da Informação passa a cumprir um papel importante no dia a dia de indivíduos e organizações. São as decisões ligadas a esse conceito que irão definir como dados podem ser coletados, analisados e classificados para se transformarem em informação e, a partir daí, serem disponibilizados, acessados, processados e protegidos em benefício de determinada finalidade.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/Automação.jpg" alt="Automação Industrial" />
+                <header>
+                    <time>31/01/2023 às 20:46</time>
+                </header>
+                <h3>Automação de Robô</h3>
+                <p>
+                    Automação industrial é definida como a utilização de máquinas eletromecânicas, softwares e equipamentos específicos para automatizar processos industriais. Possui como objetivo aumentar a eficiência dos processos, maximizar a produção com o menor consumo de energia , menor emissão de resíduos e melhores condições de segurança, seja material, humana ou das informações.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/inteligencia-artificial.jpg" alt="Inteligencia Artificial" />
+                <header>
+                    <time>31/01/2023 às 20:46</time>
+                </header>
+                <h3>Inteligência Artificial</h3>
+                <p>
+                    A Inteligência Artificial permite que os sistemas tomem decisões de forma independente, precisa e apoiada em dados digitais. O que, numa visão otimista, multiplica a capacidade racional do ser humano de resolver problemas práticos, simular situações, pensar em respostas ou, de forma mais ampla, potencializa a capacidade de ser inteligente.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+    </div>
+    </section>
+    <section id="entertainment">
+        <div class="container">
+            <h2>Entretenimento</h2>
+        <div class="articles">
+            <article>
+                <img src="./imagens/Cinema.jpg" alt="Cinema" />
+                <header>
+                    <time>31/01/2023 às 20:46</time>
+                </header>
+                <h3>Cinema</h3>
+                <p>
+                    No dia 28 de dezembro de 1895, os irmãos franceses Auguste e Louis Lumière, realizaram a primeira exibição pública cinematográfica. No entanto, aiação do cinema foi resultado do esforço de vários inventores que trabalhavam para conseguir registrar imagens em movimento.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/Jogos Virtuais.jpg" alt="Jogos Virtuais" />
+                <header>
+                    <time>31/01/2023 às 20:46</time>
+                </header>
+                <h3>Jogos Virtuais</h3>
+                <p>
+                    Os jogos são atividades utilizadas para o divertimento de uma pessoa ou um grupo, sendo um excelente método de facilitara interação entre diferentes indivíduos, seja de modo presencial ou virtual.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/Series.jpeg" alt="Series" />
+                <header>
+                    <time>31/01/2023 às 20:46</time>
+                </header>
+                <h3>Series</h3>
+                <p>
+                    Uma série de televisão pode ser ficcional ou documental, possui um número preestabelecido de episódios por temporada. O modelo padrão estadunidense é de cerca de 13 capítulos por temporada,que iniciam num mesmo período todo ano: o outono (primavera, no hemisfério Sul) para grandes estreias, e o midseason, para estreias menores. 
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
+
+#main.css
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: black;
+    padding: 16px 0;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 17px;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img{
+   /* height: 180px;*/
+    width: 100%;
+}
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+#sports .articles article a {
+    background-color: rgba(0,255,0.8);
+}
+
+#sports .articles article a{
+    background-color: #099432;
+}
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .articles article a{
+    background-color: #ff9f1a;
+}
+#tecnology{
+    background-color:rgb(0, 187, 255);
+}
+#tecnology .articles article a{
+    background-color: #1a3cff;
+}
+#entertainment{
+    background-color: #f89f9f;
+}
+#entertainment .articles article a{
+    background-color: #9fa1f8;
+}
+
